@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/minimal_shopping/static/css/main.81a9c10c.css",
-    "main.js": "/minimal_shopping/static/js/main.92febf03.js",
+    "main.js": "/minimal_shopping/static/js/main.41f470d5.js",
     "static/media/image 2.png": "/minimal_shopping/static/media/image 2.1df753af51ceb73b82be.png",
     "static/media/image 1.png": "/minimal_shopping/static/media/image 1.6e97389ce00a3f9371e1.png",
     "index.html": "/minimal_shopping/index.html",
     "main.81a9c10c.css.map": "/minimal_shopping/static/css/main.81a9c10c.css.map",
-    "main.92febf03.js.map": "/minimal_shopping/static/js/main.92febf03.js.map"
+    "main.41f470d5.js.map": "/minimal_shopping/static/js/main.41f470d5.js.map"
   },
   "entrypoints": [
     "static/css/main.81a9c10c.css",
-    "static/js/main.92febf03.js"
+    "static/js/main.41f470d5.js"
   ]
 }
