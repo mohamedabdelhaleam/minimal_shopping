@@ -1,0 +1,244 @@
+.main-single
+{
+    height: 815px;
+    width: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-data
+{
+    background: rgba(0, 0, 0, 0.025);
+}
+.main-single img
+{
+    height: 815px;
+    width: 720px;
+    border-radius: 0px;
+}
+.all-data .container
+{
+    display: flex;
+    justify-content: space-between;
+}
+.desc-img
+{
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    height: 815px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+
+}
+.stat
+{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 0px 8px;
+    width: 70.59px;
+    height: 29.83px;
+    color: black;
+    background: #EEF0F2;
+    border-radius: 6px;
+}
+.product-name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.022em;
+    color: #252C32;
+    height: 59.66px;
+    width: 100%;
+
+}
+.product-price{
+    width: 100%;
+    font-style: normal;
+    height: 59.66px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.022em;
+    color: #252C32;
+
+}
+.product-brand{
+    font-style: normal;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.006em;
+    color: #6E7C87;
+    height: 30.04px;
+
+}
+.product-description{
+    font-style: normal;
+    padding-right: 300px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.006em;
+    color: #252C32;
+    height: 100.15px;
+
+}
+.product-size{
+    width: 100%;
+}
+.product-stock{
+    font-style: normal;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.006em;
+    color: #252C32;
+    height: 24px;
+
+}
+.product-stock-size{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.product-stock-size >div{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+width: 51px;
+height: 40px;
+border-radius: 6px 0px 0px 6px;
+}
+.add-to-cart
+{
+
+    width: 462px;
+    height: 61px;
+    background: #FFFFFF;
+    border-radius: 31.5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #F61B5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.active
+{
+    background: #E5E9EB;
+
+}
+.three
+{
+    opacity: 0.4;
+}
+.two,.three,.four
+{
+    background: #F6F8F9;
+
+}
+.added{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.006em;
+    color: #252C32;
+    height: 24px;
+
+}
+.close
+{
+    display: none;
+}
+@media (min-width: 320px )  and (max-width: 767px) {
+.main-single img
+    {
+        height: 600px;
+        width: 100%;
+    }
+.all-data .container
+        {
+            flex-direction: column;
+        }
+        .add-to-cart
+        {
+            width: 260px;
+        }
+        .main-single{
+            width: 100%;
+        }
+
+        .product-description{
+            padding-right: 50px;
+        }
+        .desc-img{
+            position: relative;
+            right: 50px;
+        }
+        .stat
+    {
+        right: 90px;
+    }
+
+}
+@media (min-width: 768px ){
+.all-data .container
+    {
+        flex-direction: column;
+    }
+    .stat
+    {
+        right: 315px;
+    }
+
+
+}
+@media (min-width: 1200px ){
+    .stat
+    {
+        right: 195px;
+    }
+    .all-data .container
+        {
+            flex-direction: row;
+        }
+}
+@media (min-width: 1400px ) {
+    .all-data .container
+        {
+            flex-direction: row;
+        }
+    .stat
+    {
+        right: 240px;
+    }
+}
+    
+
+    @media (min-width: 992px )  and (max-width: 1199px ){
+    .all-data .container
+        {
+            flex-direction: column;
+        }
+        .stat
+    {
+        right: 420px;
+    }
+    }

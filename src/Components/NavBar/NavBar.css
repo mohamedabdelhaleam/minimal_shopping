@@ -1,0 +1,43 @@
+.nav{
+    padding: 10px;
+    height: 94px;
+}
+.nav .container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+.icon{
+    position: absolute;
+    right: 20px;
+    top: 25px;
+}
+@media (min-width: 320px )  and (max-width: 768px) {
+    .icon{
+        display: none;
+    }
+    .logo
+    {
+        left: 50px;
+        width: 70%;
+    }
+}
+@media (min-width: 768px ) {
+
+}
+@media (min-width: 992px ) {
+
+}
+@media (min-width: 1200px ) {
+
+}
+@media (min-width: 1400px ) {
+
+}

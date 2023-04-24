@@ -1,0 +1,80 @@
+.show-card
+{
+    width: 320px;
+    height: 397px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow: hidden;
+}
+.main-img
+{
+    height: 320px;
+    width: 320px;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prod-img
+{
+     height: 100%;
+     width: 100%;
+}
+.tit-pri
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 320px;
+    height: 20px;
+}
+.fav
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 42px;
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title
+{
+    font-style: normal;
+    position: absolute;
+    left: 2px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.75);
+}
+.price
+{
+    font-style: normal;
+    position: absolute;
+    right: 2px;
+    text-align: right;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.75);
+}
+.desc
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    height: 39px;
+}
